@@ -86,7 +86,7 @@
 
 ## 手机端短信如何传递给电脑端
 
-1. 安卓端，用 `Macrodroid监听`，在[这里](https://pan.imqimu.cn/E5/APP/MacroDroid-Pro-v5.13.5_build_51305-Mod_yxssp.com.apk)下载，并在[这里](https://pan.imqimu.cn/E5/APP/%E7%9B%91%E5%90%AC%E4%BA%AC%E4%B8%9C%E9%80%80%E4%BC%9A%E9%AA%8C%E8%AF%81%E7%A0%81.macro)下载配置文件导入到Macrodroid内
+1. 安卓端，用 `Macrodroid监听`，在[这里](https://pan.imqimu.cn/E5/APP/MacroDroid-Pro-v5.13.5_build_51305-Mod_yxssp.com.apk?preview)下载，并在[这里](https://pan.imqimu.cn/E5/APP/%E7%9B%91%E5%90%AC%E4%BA%AC%E4%B8%9C%E9%80%80%E4%BC%9A%E9%AA%8C%E8%AF%81%E7%A0%81.macro?preview)下载配置文件导入到Macrodroid内
 
 
 ```bash
