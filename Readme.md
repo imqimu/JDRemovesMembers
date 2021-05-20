@@ -54,34 +54,26 @@
     }
     ```
    
+    <details><summary>碍眼的配置，想看可以点开看看，一般默认就可以</summary><br>
+    
     * `cjy_validation`: 是否开启超级鹰验证图形验证码
-    
     * `cjy_username`: 超级鹰账号，仅在 cjy_validation 为 true 时需要设置
-    
     * `cjy_password`: 超级鹰密码，仅在 cjy_validation 为 true 时需要设置
-    
     * `cjy_soft_id`: 超级鹰软件ID，仅在 cjy_validation 为 true 时需要设置
-    
     * `cjy_kind`: 超级鹰验证码类型，仅在 cjy_validation 为 true 时需要设置，且该项目指定为 `9101`
-    
     * `ws_conn_url`: websocket链接地址，不用动
-      
     * `ws_timeout`: websocket接收验证码时间超时时间，超时会跳过当前店铺，进行下一个店铺，默认为60秒
-    
     * `selenium_timeout`: selenium操作超时时间，超过会跳过当前店铺，进行下一个店铺，默认为30秒
-    
     * `skip_shops`: 需要跳过的店铺，需要填写卡包中的完整店铺名称，为了效率没做模糊匹配，多个店铺用逗号隔开
-    
     * `phone_tail_number`: 手机后4位尾号，若填写将会校验店铺尾号是否是规定的，不符合就跳过
-    
     * `mobile_cookie`: 手机端cookie，是pt_key开头的那个
-    
     * `users`: web端cookie，通过add_cookie.py添加
-
+</details>
 
 5.  添加`cookie`
 
     * web端cookie：请在项目目录下执行`python3 add_cookie.py`， 在打开的浏览器界面登录你的京东，此时你可以看到`config.json`已经有了你的用户信息（**请不要随意泄露你的cookie**）
+    * 手机端cookie：在 config.json 中写入 mobile_cookie 项，注意是pt_key开头的那个（请不要随意泄露你的cookie）
       
     
 6.  执行主程序
