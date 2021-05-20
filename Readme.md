@@ -54,12 +54,6 @@
     }
     ```
    
-    * `browserType`: 浏览器类型
-    
-    * `headless`: 无头模式，建议默认设置
-    
-    * `binary`: 可执行路径，如果驱动没有找到浏览器的话需要你手动配置
-    
     * `cjy_validation`: 是否开启超级鹰验证图形验证码
     
     * `cjy_username`: 超级鹰账号，仅在 cjy_validation 为 true 时需要设置
@@ -89,8 +83,7 @@
 
     * web端cookie：请在项目目录下执行`python3 add_cookie.py`， 在打开的浏览器界面登录你的京东，此时你可以看到`config.json`已经有了你的用户信息（**请不要随意泄露你的cookie**）
       
-    * 手机端cookie：在 `config.json` 中写入 `mobile_cookie` 项，注意是pt_key开头的那个（**请不要随意泄露你的cookie**）
-
+    
 6.  执行主程序
 
     在项目目录下执行`python3 main.py`，等待执行完毕即可
@@ -101,9 +94,8 @@
 
 ## 手机端短信如何传递给电脑端
 
-1. 安卓端，我是用了tasker监听，总是随便一个可以监听到的，然后请求接口就行，接口如下
+1. 安卓端，用 `Macrodroid监听`，在[这里](https://pan.imqimu.cn/E5/APP/MacroDroid-Pro-v5.13.5_build_51305-Mod_yxssp.com.apk)下载，并在[这里](https://pan.imqimu.cn/E5/APP/%E7%9B%91%E5%90%AC%E4%BA%AC%E4%B8%9C%E9%80%80%E4%BC%9A%E9%AA%8C%E8%AF%81%E7%A0%81.macro)下载配置文件导入到Macrodroid内
 
-2. 安卓端，用 `Macrodroid监听`，在[这里](https://pan.imqimu.cn/E5/APP/MacroDroid-Pro-v5.13.5_build_51305-Mod_yxssp.com.apk)下载，并在[这里](https://pan.imqimu.cn/E5/APP/%E7%9B%91%E5%90%AC%E4%BA%AC%E4%B8%9C%E9%80%80%E4%BC%9A%E9%AA%8C%E8%AF%81%E7%A0%81.macro)下载配置文件导入到Macrodroid内
 
 ```bash
 http://同局域网IP:5201/publish?smsCode=短信验证码
