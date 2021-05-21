@@ -88,7 +88,6 @@
 
 <details><summary>1. 安卓端，</summary><br>
 用 `Macrodroid监听`，在[这里](https://pan.imqimu.cn/E5/APP)下载第三个文件，并在[这里](https://pan.imqimu.cn/E5/APP)下载倒数第二个配置文件导入到Macrodroid内
-</details>
 
 ```bash
 http://同局域网IP:5201/publish?smsCode=短信验证码
@@ -101,6 +100,8 @@ listening on http://192.168.2.100:5201
 ```
 
 ![QQ截图20210520162121](https://cdn.imqimu.cn/typora/202105/20/162202-422992.png)
+
+</details>
 
 ## 结束了
 
