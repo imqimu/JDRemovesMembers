@@ -20,15 +20,16 @@
     git clone git@github.com:yqchilde/JDMemberCloseAccount.git
     ```
 
-2. 安装所需要的包
+<details><summary>2. 安装所需要的包</summary><br>
 
     - 在克隆仓库下的文件夹内复制粘贴以下命令
-
+    
     ![微信截图_20210520123845](https://cdn.imqimu.cn/typora/202105/20/123916-141117.png)
-
+    
     ```shell
     pip3 install -r requirements.txt
     ```
+</details>
 
 3. `chrome`请访问`chrome://version/`查看浏览器的版本，然后去 [chromedriver](http://chromedriver.storage.googleapis.com/index.html) 下载对应的版本/系统驱动，放到项目的`drivers`文件夹下面
 
@@ -82,7 +83,7 @@
 
 ## websocket服务端运行
 
-2. 下载 [jd_wstool](https://github.com/yqchilde/JDMemberCloseAccount/releases)，选择自己的电脑系统对应的压缩包，解压运行
+下载 [jd_wstool](https://github.com/yqchilde/JDMemberCloseAccount/releases)，选择自己的电脑系统对应的压缩包，解压运行
 
 ## 手机端短信如何传递给电脑端
 
