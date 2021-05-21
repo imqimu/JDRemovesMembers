@@ -87,7 +87,8 @@
 ## 手机端短信如何传递给电脑端
 
 <details><summary>安卓端</summary><br>
-用 `Macrodroid监听`，在[这里](https://pan.imqimu.cn/E5/APP)下载第三个文件和下载倒数第二个配置文件导入到Macrodroid内
+用 `Macrodroid监听`，在https://pan.imqimu.cn/E5/APP
+下载第三个文件和下载倒数第二个配置文件导入到Macrodroid内
 
 ```bash
 http://同局域网IP:5201/publish?smsCode=短信验证码
