@@ -20,7 +20,7 @@
     git clone git@github.com:yqchilde/JDMemberCloseAccount.git
     ```
 
-<details><summary>2. 安装所需要的包</summary><br>
+2. 安装所需要的包
 
     - 在克隆仓库下的文件夹内复制粘贴以下命令
     
@@ -29,7 +29,6 @@
     ```shell
     pip3 install -r requirements.txt
     ```
-</details>
 
 3. `chrome`请访问`chrome://version/`查看浏览器的版本，然后去 [chromedriver](http://chromedriver.storage.googleapis.com/index.html) 下载对应的版本/系统驱动，放到项目的`drivers`文件夹下面
 
