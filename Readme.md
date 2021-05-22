@@ -20,6 +20,8 @@
     git clone git@github.com:yqchilde/JDMemberCloseAccount.git
     ```
 
+    > 不会这一步的可以直接下载压缩包解压，下载压缩包再不会的话Windows用户请点击屏幕右上角的`X`，Mac os用户请点击屏幕左上角的`红色圆点`
+
 2. 安装所需要的包
 
     - 在克隆仓库下的文件夹内复制粘贴以下命令
@@ -75,7 +77,7 @@
     * `baidu_secret_key`: 需要在[百度智能云](https://cloud.baidu.com/) 注册个账号，搜索文字识别项目，创建应用后的`secret_key`
       
     * `baidu_range`: 需要截取的投屏区域的验证码左上角和右下角坐标，顺序依次是 [左x,左y,右x,右y]
-     
+    
     * `baidu_delay_time`: 百度OCR识别的延迟时间，如果没识别到就几秒后再次尝试，默认为5
       
     * `browserType`: 浏览器类型
@@ -95,21 +97,21 @@
     * `cjy_kind`: 超级鹰验证码类型，仅在 cjy_validation 为 true 时需要设置，且该项目指定为 `9101`
 
     * `tj_validation`: 是否开启图鉴验证图形验证码
-     
+    
     * `tj_username`: 图鉴账号，仅在 tj_validation 为 true 时需要设置
-     
+    
     * `tj_password`: 图鉴密码，仅在 tj_validation 为 true 时需要设置
-     
+    
     * `tj_type_id`: 超级鹰验证码类型，仅在 tj_validation 为 true 时需要设置，且该项目指定为 `19`
     
     * `ws_conn_url`: websocket链接地址，不用动
       
     * `ws_timeout`: websocket接收验证码时间超时时间，超时会跳过当前店铺，进行下一个店铺，默认为60秒
-     
+    
     * `selenium_timeout`: selenium操作超时时间，超过会跳过当前店铺，进行下一个店铺，默认为30秒
-     
+    
     * `skip_shops`: 需要跳过的店铺，需要填写卡包中的完整店铺名称，为了效率没做模糊匹配，多个店铺用逗号隔开
-     
+    
     * `phone_tail_number`: 手机后4位尾号，若填写将会校验店铺尾号是否是规定的，不符合就跳过
     
     * `mobile_cookie`: 手机端cookie，是pt_key开头的那个
