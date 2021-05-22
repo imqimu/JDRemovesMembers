@@ -156,7 +156,8 @@ listening on http://192.168.2.100:5201
 <details><summary>iOS端</summary><br>
 下载 `爱思助手` 使用实时屏幕，使用QQ截图工具获取左上和右下的xy轴坐标，在config.json内配置
 
-![photo_2021-05-22_13-52-39](https://cdn.imqimu.cn/typora/202105/22/140636-5295.jpeg)
+![photo_2021-05-22_13-52-39](https://user-images.githubusercontent.com/72058508/119216624-4dd67e80-bb07-11eb-9f1a-a7014d0b8ad1.jpg)
+
 </details>
 
 ## 结束了
