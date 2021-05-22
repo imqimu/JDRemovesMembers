@@ -36,6 +36,12 @@
 
     ```json
     {
+        "device": "ios",
+        "baidu_app_id": "",
+        "baidu_api_key": "",
+        "baidu_secret_key": "",
+        "baidu_range": [1231,393,1383,412],
+        "baidu_delay_time": 5,
         "browserType": "Chrome",
         "headless": false,
         "binary": "",
@@ -44,29 +50,70 @@
         "cjy_password": "",
         "cjy_soft_id": "",
         "cjy_kind": 9101,
+        "tj_validation": false,
+        "tj_username": "",
+        "tj_password": "",
+        "tj_type_id": 19,
         "ws_conn_url": "ws://localhost:5201/subscribe",
         "ws_timeout": 60,
         "selenium_timeout": 30,
         "skip_shops": "",
         "phone_tail_number": "",
-        "mobile_cookie": "pt_key=xxxxxx;pt_pin=xxxxxx",
+        "mobile_cookie": "",
         "users": {}
     }
     ```
    
     <details><summary>碍眼的配置，想看可以点开看看，一般默认就可以</summary><br>
     
+    * `device`: 如果是ios设备就填写ios，安卓留空
+      
+    * `baidu_app_id`: 需要在[百度智能云](https://cloud.baidu.com/) 注册个账号，搜索文字识别项目，创建应用后的`app_id`
+      
+    * `baidu_api_key`: 需要在[百度智能云](https://cloud.baidu.com/) 注册个账号，搜索文字识别项目，创建应用后的`api_key`
+      
+    * `baidu_secret_key`: 需要在[百度智能云](https://cloud.baidu.com/) 注册个账号，搜索文字识别项目，创建应用后的`secret_key`
+      
+    * `baidu_range`: 需要截取的投屏区域的验证码左上角和右下角坐标，顺序依次是 [左x,左y,右x,右y]
+   
+    * `baidu_delay_time`: 百度OCR识别的延迟时间，如果没识别到就几秒后再次尝试，默认为5
+      
+    * `browserType`: 浏览器类型
+    
+    * `headless`: 无头模式，建议默认设置
+    
+    * `binary`: 可执行路径，如果驱动没有找到浏览器的话需要你手动配置
+    
     * `cjy_validation`: 是否开启超级鹰验证图形验证码
+    
     * `cjy_username`: 超级鹰账号，仅在 cjy_validation 为 true 时需要设置
+    
     * `cjy_password`: 超级鹰密码，仅在 cjy_validation 为 true 时需要设置
+    
     * `cjy_soft_id`: 超级鹰软件ID，仅在 cjy_validation 为 true 时需要设置
+
     * `cjy_kind`: 超级鹰验证码类型，仅在 cjy_validation 为 true 时需要设置，且该项目指定为 `9101`
+
+    * `tj_validation`: 是否开启图鉴验证图形验证码
+   
+    * `tj_username`: 图鉴账号，仅在 tj_validation 为 true 时需要设置
+   
+    * `tj_password`: 图鉴密码，仅在 tj_validation 为 true 时需要设置
+   
+    * `tj_type_id`: 超级鹰验证码类型，仅在 tj_validation 为 true 时需要设置，且该项目指定为 `19`
+    
     * `ws_conn_url`: websocket链接地址，不用动
+      
     * `ws_timeout`: websocket接收验证码时间超时时间，超时会跳过当前店铺，进行下一个店铺，默认为60秒
+   
     * `selenium_timeout`: selenium操作超时时间，超过会跳过当前店铺，进行下一个店铺，默认为30秒
+   
     * `skip_shops`: 需要跳过的店铺，需要填写卡包中的完整店铺名称，为了效率没做模糊匹配，多个店铺用逗号隔开
+   
     * `phone_tail_number`: 手机后4位尾号，若填写将会校验店铺尾号是否是规定的，不符合就跳过
+    
     * `mobile_cookie`: 手机端cookie，是pt_key开头的那个
+    
     * `users`: web端cookie，通过add_cookie.py添加
 </details>
 
