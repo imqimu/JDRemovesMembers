@@ -154,7 +154,7 @@ listening on http://192.168.2.100:5201
 </details>
 
 <details><summary>iOS端</summary><br>
-下载 `爱思助手` 使用实时屏幕，使用QQ获取左上和右下的xy轴坐标，在config.json内配置
+下载 `爱思助手` 使用实时屏幕，使用QQ截图工具获取左上和右下的xy轴坐标，在config.json内配置
 
 
 
