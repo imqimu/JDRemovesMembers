@@ -159,4 +159,11 @@ listening on http://192.168.2.100:5201
 ![photo_2021-05-22_13-52-39](https://cdn.imqimu.cn/typora/202105/22/140636-5295.jpeg)
 </details>
 
+
+### 感谢以下作者开源JD相关项目供我瞎逼逼的机会
+### 排名不分先后
+- [@AntonVanke](https://github.com/AntonVanke/JDBrandMember)
+- [@yqchilde](https://github.com/yqchilde/JDMemberCloseAccount)
+
 ## 结束了
+### 实在不会Windows用户点击浏览器右上角的`×`，Mac用户点击左上角的红色`小圆点`关闭本教程
