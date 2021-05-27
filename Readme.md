@@ -18,6 +18,8 @@
 
     ```shell
     git clone git@github.com:yqchilde/JDMemberCloseAccount.git
+    #没拉下来就用下面的
+    git clone https://github.com/yqchilde/JDMemberCloseAccount.git
     ```
 
     > 不会这一步的可以直接下载压缩包解压，下载压缩包再不会的话Windows用户请点击屏幕右上角的`X`，Mac os用户请点击屏幕左上角的`红色圆点`
