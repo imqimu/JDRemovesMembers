@@ -160,8 +160,6 @@ listening on http://192.168.2.100:5201
 
 </details>
 
-<<<<<<< HEAD
-
 ### 感谢以下作者开源JD相关项目供我瞎逼逼的机会
 ### 排名不分先后
 - [@AntonVanke](https://github.com/AntonVanke/JDBrandMember)
@@ -169,6 +167,3 @@ listening on http://192.168.2.100:5201
 
 ## 结束了
 ### 实在不会Windows用户点击浏览器右上角的`×`，Mac用户点击左上角的红色`小圆点`关闭本教程
-=======
-## 结束了
->>>>>>> 63beefe6563ec57028b90f325ae282dffe8fa10f
