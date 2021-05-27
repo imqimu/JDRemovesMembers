@@ -160,7 +160,7 @@ listening on http://192.168.2.100:5201
 
 </details>
 
-### 感谢以下作者开源JD相关项目供我瞎逼逼的机会
+### 感谢以下作者的相关项目供我瞎逼逼的机会
 ### 排名不分先后
 - [@AntonVanke](https://github.com/AntonVanke/JDBrandMember)
 - [@yqchilde](https://github.com/yqchilde/JDMemberCloseAccount)
