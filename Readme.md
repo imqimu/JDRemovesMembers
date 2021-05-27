@@ -156,9 +156,11 @@ listening on http://192.168.2.100:5201
 <details><summary>iOS端</summary><br>
 下载 `爱思助手` 使用实时屏幕，使用QQ截图工具获取左上和右下的xy轴坐标，在config.json内配置
 
-![photo_2021-05-22_13-52-39](https://cdn.imqimu.cn/typora/202105/22/140636-5295.jpeg)
+![photo_2021-05-22_13-52-39](https://user-images.githubusercontent.com/72058508/119216624-4dd67e80-bb07-11eb-9f1a-a7014d0b8ad1.jpg)
+
 </details>
 
+<<<<<<< HEAD
 
 ### 感谢以下作者开源JD相关项目供我瞎逼逼的机会
 ### 排名不分先后
@@ -167,3 +169,6 @@ listening on http://192.168.2.100:5201
 
 ## 结束了
 ### 实在不会Windows用户点击浏览器右上角的`×`，Mac用户点击左上角的红色`小圆点`关闭本教程
+=======
+## 结束了
+>>>>>>> 63beefe6563ec57028b90f325ae282dffe8fa10f
